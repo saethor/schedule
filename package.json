@@ -4,7 +4,10 @@
   "description": "Angular App that gives you schedule information for today on all major tv channels.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependecies": {
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
