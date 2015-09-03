@@ -1,22 +1,25 @@
 {
   "name": "schedule",
-  "version": "1.0.0",
-  "description": "Angular App that gives you schedule information for today on all major tv channels.",
+  "version": "0.0.1",
+  "description": "A TV schedule",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependecies": {
+  "dependencies": {
     "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/saethor/schedule.git"
+    "url": "https://github.com/saethor/schedule"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saethor/schedule/issues"
-  },
-  "homepage": "https://github.com/saethor/schedule"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

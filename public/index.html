@@ -34,7 +34,7 @@
             <tr ng-repeat="show in schedules.schedule">
                 <td>{{ show.startTime | date:'H:mm'}}</td>
                 <td>{{ show.title }} <br ng-show="show.originalTitle"><small>{{ show.originalTitle }}</small></td>
-                <td>{{ show.description }}</td>
+                <td>{{ show.description || "No description" }}</td>
                 <td>{{ show.duration | date:'h:mm'}}</td>
             </tr>
         </tbody>
@@ -42,7 +42,7 @@
     
 </div>
 
-<script type="text/javascript" src="vendor/angular.js"></script>
+<script type="text/javascript" src="js/vendor/angular.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
